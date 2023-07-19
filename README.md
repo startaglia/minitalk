@@ -19,6 +19,8 @@ SCREEEN
   make
  ```
 
+It's a project written on Linux, to make it work on MAC you have to replace `intptr_t` with `uintptr_t` </br></br>
+
 4- Run the server and copy its PID to the client, then write the message you want to send.
 
 	./server
@@ -38,11 +40,8 @@ SCREEEN
 - **Compiler**: GCC (GNU Compiler Collection)
 - **Build System**: GNU Make
 - **C Standard Library**
-- **Process Management**: System calls like `fork()`, `exec()`, and `waitpid()`
-- **String Handling**: Standard library functions from `string.h`
-- **Command Line Arguments Handling**: Techniques such as `argc`/`argv` or libraries like `getopt`
-
-
+- **Signal Handling**: Standard library functions from `signal.h`
+- **Command Line Arguments Handling**: Techniques such as `argc`/`argv`
 
 ## Authors:
 
