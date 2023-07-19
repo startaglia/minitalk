@@ -16,13 +16,13 @@ SCREEEN
 	
  ```
   cd minitalk
-	make
+  make
  ```
+
 4- Run the server and copy its PID to the client, then write the message you want to send.
 
 	./server
-	./client <server_PID>
-    <message>
+	./client <server_PID> <message>
     
 ### Makefile Available Targets:  
 `make` or `make all` - Makes _client_ and _server_  
@@ -31,12 +31,22 @@ SCREEEN
 `make re` - fclean + all  
 </br></br>
 
-## Techonologies
+## Technologies Used:
 
-   <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux Logo" width="40" height="40" align="left" /> 
-   <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C Logo" width="40" height="40" align="left" /> </br></br></br>
+- **Programming Language**: C
+- **Operating System**: Linux
+- **Compiler**: GCC (GNU Compiler Collection)
+- **Build System**: GNU Make
+- **C Standard Library**
+- **Process Management**: System calls like `fork()`, `exec()`, and `waitpid()`
+- **String Handling**: Standard library functions from `string.h`
+- **Command Line Arguments Handling**: Techniques such as `argc`/`argv` or libraries like `getopt`
 
-   
-## Authors
 
-### Simone Tartaglia -  startaglia89@gmail.com - <a href="https://github.com/startaglia" target="_blank"><img align="center" src="https://icon-library.com/images/github-icon-svg/github-icon-svg-0.jpg" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/simone-tartaglia-134723248/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/simone-tartaglia-134723248/" height="30" width="30" /></a>
+
+## Authors:
+
+- **Simone Tartaglia**
+  - Email: [startaglia89@gmail.com](mailto:startaglia89@gmail.com)
+  - GitHub: [startaglia](https://github.com/startaglia)
+  - LinkedIn: [Simone Tartaglia](https://www.linkedin.com/in/simone-tartaglia-134723248/)
