@@ -1,4 +1,3 @@
-
 NAMEC = client
 NAMES = server
 LIBRARY = libftprintf.a
@@ -32,3 +31,4 @@ fclean:
 re: fclean all
 
 .PHONY:		all bonus clean fclean re
+
