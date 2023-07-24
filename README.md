@@ -1,7 +1,7 @@
 # Minitalk
 
-Is a comunication program between client and server using UNIX signals.</br>
-SCREEEN
+Is a comunication program between client and server using UNIX signals.</br></br>
+<a href="https://42roma.it/"><img src="https://github.com/startaglia/startaglia/blob/main/.media/minitalk.gif"></a>
 </br>
 
 ## Installing and running the project:
