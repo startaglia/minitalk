@@ -6,7 +6,7 @@
 /*   By: startagl <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/30 11:19:18 by startagl          #+#    #+#             */
-/*   Updated: 2023/01/31 15:17:18 by startagl         ###   ########.fr       */
+/*   Updated: 2023/07/24 22:41:43 by startagl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,6 @@ size_t	ft_strlen(const char *s)
 
 int	ft_putstr(char *s)
 {
-	int	i;
-
-	i = 0;
 	if (!s)
 	{
 		write(1, "(null)", 6);
@@ -72,11 +69,9 @@ int	ft_printf(const char *ptr, ...)
 	int		i;
 	int		bytes;
 	va_list	list;
-	int		len;
 
 	va_start(list, ptr);
 	i = 0;
-	len = 0;
 	if (!ptr)
 		return (0);
 	bytes = 0;
